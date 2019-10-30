@@ -1,0 +1,32 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 60px;
+    background-color: #EEEEEE;
+    color: black;
+    // border-bottom: 2px solid #856A39;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    &_logo{
+        object-fit: contain;
+        height: 100%;
+        margin-left: auto;
+    }
+    &_mobile{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+        align-items: center;
+        > i {
+            font-size: 32px;
+        }
+    }
+}
+
+.scissors{
+    color: #896F40;
+}
